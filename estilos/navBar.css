@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.iconNavBarContainer {
+    background-color: #aaa;
+    display: flex;
+}
+
+.icon {
+    width: auto;
+    height: 150px;
+}
+
+.homeNavBarContainer {
+    width: 1600px;
+    margin: 70px 20px 0 120px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nNavBarInfo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.lastNavBarInfo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.homeNavBarContainer a:hover {
+    color: #000;
+}

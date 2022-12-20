@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.infoTitle {
+    margin: 50px 0 50px 20%;
+}
+
+.contactContainer {
+    width: 800px;
+    display: flex;
+    margin-left: 25%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 25px 0;
+    gap: 10px;
+}
+
+.contactButton {
+    width: 150px;
+    height: 50px;
+}
+
+.campos {
+    margin-left: 25%;
+    color: #f00;
+}

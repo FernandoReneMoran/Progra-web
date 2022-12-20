@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.navBar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.titles-container {
+    min-width: 100px;
+    max-width: 1500px;
+    min-height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid #000;
+    background-color: #ccc;
+}
+
+.text-url {
+    border: 2px solid #000;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 10px;
+    padding: 2px;
+    color: #05f;
+}
+
+.text-url:hover {
+    cursor: pointer;
+}
+
+.nombre-admin {
+    border: 2px solid #000;
+    display: inline;
+    margin: 0 10px;
+    font-size: 20px;
+    padding: 2px;
+    color: #050;
+}
+
+.text-url-red {
+    border: 2px solid #000;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 10px;
+    padding: 2px;
+    color: #a00;
+}
+
+.text-url-red:hover {
+    cursor: pointer;
+}

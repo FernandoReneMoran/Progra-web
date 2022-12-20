@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sampleProducts {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 420px;
+    width: 550px;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 150px 0 0 35%;
+}
+
+.productImgSample {
+    width: auto;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.producInfo {
+    margin: 3px 0;
+}
+
+.producButton {
+    height: 30px;
+    margin-top: 3px;
+    padding: 2px;
+    width: 100px;
+}
